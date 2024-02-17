@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+<h2>What Can JavaScript Do?</h2>
+<p>JavaScript can change HTML attribute values.</p><p>In this case JavaScript changes the value of the src (source)attribute of an image.</p>
+<button
+onclick="document.getElementById('myImage').src='images/2.jpg'">Turn on the light</button>
+<img id="myImage" src="images/1.jpg" style="width:100px"><button
+onclick="document.getElementById('myImage').src='images/2.jpg'">Turn off the light</button>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Demo JavaScript in Body</h2>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<script src="a.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript if .. else</h2>
+<p>A time-based greeting:</p>
+<p id="demo"></p>
+<script>
+const hour = new Date().getHours();
+let greeting;
+if (hour < 18) {
+greeting = "Good day";
+} else {
+greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+</body>
+</html>
